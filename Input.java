@@ -1,9 +1,22 @@
+//import java.util.*;
+import java.util.Scanner;
+
 public class Input {
 
-    public static void askforvariables(String args[]) {
+    public static void askforvariable() {
 
-        String x = "gee";
-        System.out.print(x);
+        String askforinput =
+
+
+        /*Scanner sc = new Scanner(System.in);
+        String variable = sc.nextLine();
+        System.out.print("Enter your variable: " + variable);
+
+        if(variable.equals("g")){
+
+            System.out.print("Your variable is g?");
+
+        }*/
 
     }
 
