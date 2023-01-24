@@ -3,20 +3,26 @@ import java.util.Scanner;
 
 public class Input {
 
+
     public static void askforvariable() {
 
-        String askforinput =
+        Scanner scan = new Scanner(System.in);
+        System.out.println("What are you calculating?");
+        String question = scan.nextLine(); //this line is for inputs
 
+        if(question.equals("q") || question.equals("heat") || question.equals("Heat")){
+            //System.out.println("You're calculating heat? Enter your variable values.");
+            CalculateValues.calculateheat();
 
-        /*Scanner sc = new Scanner(System.in);
-        String variable = sc.nextLine();
-        System.out.print("Enter your variable: " + variable);
-
-        if(variable.equals("g")){
-
-            System.out.print("Your variable is g?");
-
+        }
+        /*else{
+            System.out.println("Your value is not m.");
+            System.out.println("Please enter a different variable");
+            question = scan.nextLine();
+            System.out.println("Your value is not m.");
         }*/
+
+
 
     }
 
