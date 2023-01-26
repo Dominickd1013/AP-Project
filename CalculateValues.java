@@ -3,30 +3,42 @@ public class CalculateValues {
 
     public static void calculateheat(){
 
-
-
+        Scanner scan = new Scanner(System.in);
 
         System.out.println("Please enter your mass.");
-        Scanner scan = new Scanner(System.in);
-        //System.out.println("Input a variable");
-        int question = scan.nextInt();
-
-
-        //System.out.println("Please enter your mass.");
-        question = scan.nextInt();
-        int m = question;
+        int m = scan.nextInt();
 
         System.out.println("Please enter your specific heat");
-        question = scan.nextInt();
-        int c = question;
+        int c = scan.nextInt();
 
         System.out.println("Please enter your change in temperature.");
-        question = scan.nextInt();
-        int t = question;
+        int t = scan.nextInt();
 
         int q = m*c*t;
 
+        System.out.println("Your total heat is: ");
         System.out.print(q);
+
+    }
+
+    public static void calculatemass(){
+
+        Scanner scan = new Scanner(System.in);
+
+        System.out.println("Please enter your heat.");
+        int q = scan.nextInt();
+
+        System.out.println("Please enter your specific heat");
+        int c = scan.nextInt();
+
+        System.out.println("Please enter your change in temperature.");
+        int t = scan.nextInt();
+
+
+        int m = q/c*t;
+
+        System.out.println("Your total mass is: ");
+        System.out.print(m);
 
     }
 
