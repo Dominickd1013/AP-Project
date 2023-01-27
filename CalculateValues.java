@@ -40,6 +40,7 @@ public class CalculateValues {
         System.out.println("Your total mass is: ");
         System.out.print(m);
 
+        }
     }
 
-}
+
