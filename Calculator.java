@@ -2,51 +2,41 @@ import java.util.Scanner;
 
 public class Calculator {
 
-    public static void Calculate() {
+    public static void main(String args[]) {
 
+        System.out.println("What would you like to do?");
+        System.out.println("1. Calculator.");
+        System.out.println("2. See previously calculated values.");
         Scanner scan = new Scanner(System.in);
-        System.out.println("What are you calculating?");
-        String question = scan.nextLine();
+        int action = scan.nextInt();
 
-        switch (question) {
+        if (action == 1) {
 
-            case "Q":
-                Input.askforheat();
-                break;
-            case "q":
-                Input.askforheat();
-                break;
-            case "H":
-                Input.askforheat();
-                break;
-            case "h":
-                Input.askforheat();
-                break;
-            case "Heat":
-                Input.askforheat();
-                break;
-            case "heat":
-                Input.askforheat();
-                break;
+            System.out.println("What would you like to calculate?");
+            String question = scan.nextLine();
 
-            case "M":
-                Input.askformass();
-                break;
-            case "m":
-                Input.askformass();
-                break;
-            case "Mass":
-                Input.askformass();
-                break;
-            case "mass":
-                Input.askformass();
-                break;
+            switch (question) {
+                case "Q":
+                case "q":
+                case "H":
+                case "h":
+                case "Heat":
+                case "heat":
+                    Input.askforheat();
+                    break;
+                case "M":
+                case "m":
+                case "Mass":
+                case "mass":
+                    Input.askformass();
+                    break;
+                default:
+                    System.out.println("Please input a valid value.");
 
-            default: System.out.println("Please input a valid value.");
+            }
+
         }
 
     }
 
 }
-
-
