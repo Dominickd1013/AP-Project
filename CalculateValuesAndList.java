@@ -1,7 +1,17 @@
 import java.util.Scanner;
-public class CalculateValues {
+public class CalculateValuesAndList {
 
-    public static void calculateheat(){
+    public static void List() {
+
+        String[] valuelist;
+        valuelist = new String[10000];
+
+        String newvalue = calculateheat();
+        valuelist[2] = "misc.";
+
+    }
+
+    public static String calculateheat(){
 
         Scanner scan = new Scanner(System.in);
 
@@ -18,6 +28,7 @@ public class CalculateValues {
 
         System.out.println("Your total heat is: ");
         System.out.print(q);
+        return "" + q;
 
     }
 

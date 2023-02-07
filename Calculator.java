@@ -8,14 +8,14 @@ public class Calculator {
         System.out.println("1. Calculator.");
         System.out.println("2. See previously calculated values.");
         Scanner scan = new Scanner(System.in);
-        int action = scan.nextInt();
+        int operation = scan.nextInt();
+        scan.nextLine();    //clears the input to allow input for choice
 
-        if (action == 1) {
-
+        do {
             System.out.println("What would you like to calculate?");
-            String question = scan.nextLine();
+            String choice = scan.nextLine();
 
-            switch (question) {
+            switch (choice) {
                 case "Q":
                 case "q":
                 case "H":
@@ -31,11 +31,18 @@ public class Calculator {
                     Input.askformass();
                     break;
                 default:
-                    System.out.println("Please input a valid value.");
+                    System.out.println("Please input a valid value, and try again.\n");
+                    System.out.println("-----------------------------------------------\n");
 
             }
+        }while (operation == 1);
 
-        }
+
+        do{
+
+
+            }
+        }while (operation == 2);
 
     }
 
