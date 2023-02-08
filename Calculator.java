@@ -13,37 +13,44 @@ public class Calculator {
 
         do {
             System.out.println("What would you like to calculate?");
-            String choice = scan.nextLine();
+            System.out.println("Please input a number below for selection.\n");
+            System.out.println("1. Heat/Q/h.");
+            System.out.println("2. Mass/m.");
+            System.out.println("3. Specific heat/c.");
+            System.out.println("4. Change in temperature.");
+            int choice = scan.nextInt();
 
             switch (choice) {
-                case "Q":
-                case "q":
-                case "H":
-                case "h":
-                case "Heat":
-                case "heat":
+                case 1:
                     Input.askforheat();
                     break;
-                case "M":
-                case "m":
-                case "Mass":
-                case "mass":
+                case 2:
                     Input.askformass();
                     break;
+                case 3:
+                    Input.askforspecificheat();
+                    break;
+                /*case "4":
+                    Input.askfortemperature();
+                    break;*/
+                case 5:
+                    System.out.println("Please make a valid decision and try again.\n");
                 default:
                     System.out.println("Please input a valid value, and try again.\n");
                     System.out.println("-----------------------------------------------\n");
 
+                    operation = 2;
             }
+
         }while (operation == 1);
 
 
-        do{
+        /*do{
 
 
             }
         }while (operation == 2);
-
+*/
     }
 
 }

@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5f05dacc-4983-49a6-835e-08d1f43c9384" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CalculateValues.java" beforeDir="false" afterPath="$PROJECT_DIR$/CalculateValuesAndList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CalculateValuesAndList.java" beforeDir="false" afterPath="$PROJECT_DIR$/CalcValuesAndList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/Calculator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Input.java" beforeDir="false" afterPath="$PROJECT_DIR$/Input.java" afterDir="false" />
     </list>
@@ -48,6 +49,7 @@
       <workItem from="1675445595755" duration="2255000" />
       <workItem from="1675703647158" duration="824000" />
       <workItem from="1675786071831" duration="2137000" />
+      <workItem from="1675880053400" duration="2404000" />
     </task>
     <servers />
   </component>
