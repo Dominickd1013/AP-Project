@@ -6,12 +6,12 @@ public class Calculator {
 
         System.out.println("What would you like to do?");
         System.out.println("1. Calculator.");
-        System.out.println("2. See previously calculated values.");
+        System.out.println("2. Write down your calculated values to keep track.");
         Scanner scan = new Scanner(System.in);
         int operation = scan.nextInt();
         scan.nextLine();    //clears the input to allow input for choice
 
-        do {
+        if(operation == 1){
             System.out.println("What would you like to calculate?");
             System.out.println("Please input a number below for selection.\n");
             System.out.println("1. Heat/Q/h.");
@@ -30,27 +30,37 @@ public class Calculator {
                 case 3:
                     Input.askforspecificheat();
                     break;
-                /*case "4":
+                case 4:
                     Input.askfortemperature();
-                    break;*/
-                case 5:
-                    System.out.println("Please make a valid decision and try again.\n");
+                    break;
                 default:
-                    System.out.println("Please input a valid value, and try again.\n");
-                    System.out.println("-----------------------------------------------\n");
-
-                    operation = 2;
+                    System.out.println("Please make a valid decision and try again.");
+                    System.out.println("-----------------------------------------------");
             }
+        }
+        if(operation == 2){
 
-        }while (operation == 1);
+            System.out.println("What would you like to do?");
+            System.out.println("1. Write a value down.");
+            System.out.println("2. Display my values.");
+            String[] valueList = new String[1000];
+            int lastValue = 0;
+            Scanner input = new Scanner(System.in);
+            int choice = scan.nextInt();
 
-
-        /*do{
+            if(choice == 1){
+                System.out.println("Please type in the value you want to write down.");
+                String keptValue = input.nextLine();
 
 
             }
-        }while (operation == 2);
-*/
+        }
+        //setup breakout statement for the calculating loops by making the cases set operation to 3
+        else{
+            System.out.println("Please pick a valid option and try again.");
+        }
+
+
     }
 
 }

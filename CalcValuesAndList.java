@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class CalcValuesAndList {
 
-    public static void List() {
+    /*public static void List() {
 
         String[] valuelist;
         valuelist = new String[10000];
@@ -10,9 +10,9 @@ public class CalcValuesAndList {
         String newvalue = calculateHeat();
         valuelist[2] = "misc.";
 
-    }
+    }*/
 
-    public static String calculateHeat() {
+    public static void calculateHeat() {
 
         Scanner scan = new Scanner(System.in);
         System.out.println("You are now calculating heat.\n");
@@ -26,9 +26,7 @@ public class CalcValuesAndList {
 
         double q = m * c * t;
 
-        System.out.println("Your total heat is: .");
-        System.out.print(q);
-        return "" + q;
+        System.out.println("Your total heat is: " + q);
 
     }
 
@@ -47,15 +45,14 @@ public class CalcValuesAndList {
         double ct = c * t;
         double m = q / ct;
 
-        System.out.println("Your total mass is: .");
-        System.out.print(m);
+        System.out.println("Your total mass is: " + m);
 
     }
 
     public static void calculateSpecificHeat() {
 
         Scanner scan = new Scanner(System.in);
-        System.out.println("You are now calculating mass.\n");
+        System.out.println("You are now calculating specific heat.\n");
 
         System.out.println("Please enter your heat.");
         double q = scan.nextDouble();
@@ -67,8 +64,7 @@ public class CalcValuesAndList {
         double mt = m * t;
         double c = q / mt;
 
-        System.out.println("Your total mass is: .");
-        System.out.print(c);
+        System.out.println("Your specific heat is: " + c);
 
     }
 
@@ -84,8 +80,7 @@ public class CalcValuesAndList {
 
         double changeintemp = t2 - t1;
 
-        System.out.println("Your total mass is: .");
-        System.out.print(changeintemp);
+        System.out.println("Your total temperature change is: " + changeintemp);
 
     }
 
