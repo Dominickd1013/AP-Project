@@ -36,30 +36,18 @@ public class Calculator {
                 default:
                     System.out.println("Please make a valid decision and try again.");
                     System.out.println("-----------------------------------------------");
+                    operation = 3;
             }
         }
         if(operation == 2){
+            WrittenList.List();
+            WrittenList.List();
 
-            System.out.println("What would you like to do?");
-            System.out.println("1. Write a value down.");
-            System.out.println("2. Display my values.");
-            String[] valueList = new String[1000];
-            int lastValue = 0;
-            Scanner input = new Scanner(System.in);
-            int choice = scan.nextInt();
-
-            if(choice == 1){
-                System.out.println("Please type in the value you want to write down.");
-                String keptValue = input.nextLine();
-
-
-            }
         }
         //setup breakout statement for the calculating loops by making the cases set operation to 3
-        else{
+        if(operation < 0 || operation > 3){
             System.out.println("Please pick a valid option and try again.");
         }
-
 
     }
 

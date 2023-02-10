@@ -2,16 +2,6 @@ import java.util.Scanner;
 
 public class CalcValuesAndList {
 
-    /*public static void List() {
-
-        String[] valuelist;
-        valuelist = new String[10000];
-
-        String newvalue = calculateHeat();
-        valuelist[2] = "misc.";
-
-    }*/
-
     public static void calculateHeat() {
 
         Scanner scan = new Scanner(System.in);
