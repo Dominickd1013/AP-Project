@@ -1,8 +1,8 @@
 import java.util.Scanner;
 
-public class Calculator {
+public class HeatCalculator {
 
-    public static void main(String args[]) {
+    public static void CalculatorInterface() {
 
         System.out.println("What would you like to do?");
         System.out.println("1. Calculator.");
@@ -11,7 +11,7 @@ public class Calculator {
         int operation = scan.nextInt();
         scan.nextLine();    //clears the input to allow input for choice
 
-        if(operation == 1){
+        if (operation == 1) {
             System.out.println("What would you like to calculate?");
             System.out.println("Please input a number below for selection.\n");
             System.out.println("1. Heat/Q/h.");
@@ -39,13 +39,11 @@ public class Calculator {
                     operation = 3;
             }
         }
-        if(operation == 2){
+        if (operation == 2) {
             WrittenList.List();
-            WrittenList.List();
-
         }
         //setup breakout statement for the calculating loops by making the cases set operation to 3
-        if(operation < 0 || operation > 3){
+        if (operation < 0 || operation > 3) {
             System.out.println("Please pick a valid option and try again.");
         }
 
