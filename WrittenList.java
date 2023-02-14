@@ -2,6 +2,11 @@ import java.util.Scanner;
 
 public class WrittenList {
 
+    static int lastValue = 0;
+    static String[] valueList = new String[1000];
+    static Scanner input = new Scanner(System.in);
+    static String keptValue = input.nextLine();
+
     public static void List() {
 
         System.out.println("What would you like to do?");
@@ -13,15 +18,15 @@ public class WrittenList {
         Scanner input = new Scanner(System.in);
         int choice = scan.nextInt();
 
-        if(choice == 1){
+        if (choice == 1) {
             WrittenList.addvaluenote();
             WrittenList.otherList();
         }
 
-        if(choice == 2){
+        if (choice == 2) {
             WrittenList.displayvaluenote();
+            WrittenList.otherList();
         }
-
     }
 
     public static void otherList() {
@@ -37,36 +42,31 @@ public class WrittenList {
         Scanner input = new Scanner(System.in);
         int choice = scan.nextInt();
 
-        if(choice == 1){
-            WrittenList.addvaluenote();
-            WrittenList.otherList();
-        }
+        switch (choice) {
 
-        if(choice == 2){
-            WrittenList.displayvaluenote();
+            case 1:
+                WrittenList.addvaluenote();
+                WrittenList.otherList();
+                break;
+            case 2:
+                WrittenList.displayvaluenote();
+                break;
+            case 3:
+                System.out.println("You are now back at the calculator");
+                HeatCalculator.CalculatorInterface();
+                break;
+            case 4:
         }
-
-        if(choice == 3){
-            return;
-        }
-
     }
 
     public static void addvaluenote() {
-
-        String[] valueList = new String[1000];
-        int lastValue = 0;
-        Scanner input = new Scanner(System.in);
         System.out.println("Please type in the value you want to write down.");
-        String keptValue = input.nextLine();
         valueList[lastValue] = keptValue;
+        lastValue++;
     }
 
     public static void displayvaluenote() {
 
-        String[] valueList = new String[1000];
-        int lastValue = 0;
-        Scanner input = new Scanner(System.in);
         for (int currentvalue = 0; currentvalue < lastValue; currentvalue++) {
             System.out.println((currentvalue) + "." + (valueList[currentvalue]));
         }

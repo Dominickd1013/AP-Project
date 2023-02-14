@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5f05dacc-4983-49a6-835e-08d1f43c9384" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Interface.java" afterDir="false" />
+    <list default="true" id="dd4d7fe4-527e-447d-b0be-56224c1fc125" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/HeatCalculator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HeatCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/HeatCalculator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WrittenList.java" beforeDir="false" afterPath="$PROJECT_DIR$/WrittenList.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -12,50 +12,33 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Class" />
-      </list>
-    </option>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProblemsViewState">
-    <option name="selectedTabId" value="CurrentFile" />
-  </component>
-  <component name="ProjectId" id="2LEoRRLJqVbLl8Bc3dhHEP7w3hG" />
+  <component name="ProjectId" id="2Lk2WB3Sl7jm4BpYC2lJkw4Z5Q2" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false"
   }
-}</component>
+}]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="5f05dacc-4983-49a6-835e-08d1f43c9384" name="Changes" comment="" />
-      <created>1675445594496</created>
+      <changelist id="dd4d7fe4-527e-447d-b0be-56224c1fc125" name="Changes" comment="" />
+      <created>1676400789114</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1675445594496</updated>
-      <workItem from="1675445595755" duration="2255000" />
-      <workItem from="1675703647158" duration="824000" />
-      <workItem from="1675786071831" duration="2137000" />
-      <workItem from="1675880053400" duration="2404000" />
-      <workItem from="1675963950966" duration="2269000" />
-      <workItem from="1676047693250" duration="335000" />
-      <workItem from="1676048173133" duration="1942000" />
-      <workItem from="1676304282041" duration="2387000" />
+      <updated>1676400789114</updated>
+      <workItem from="1676400790377" duration="77000" />
     </task>
     <servers />
   </component>
