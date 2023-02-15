@@ -1,14 +1,14 @@
 import java.util.Scanner;
 
 public class HeatCalculator {
-    static Scanner scan = new Scanner(System.in);
-    static int choice = scan.nextInt();
 
     public static void CalculatorInterface() {
+
 
         System.out.println("What would you like to do?");
         System.out.println("1. Calculator.");
         System.out.println("2. Write down your calculated values to keep track.");
+        Scanner scan = new Scanner(System.in);
         int operation = scan.nextInt();
         scan.nextLine();    //clears the input to allow input for choice
 
@@ -19,6 +19,7 @@ public class HeatCalculator {
             System.out.println("2. Mass/m.");
             System.out.println("3. Specific heat/c.");
             System.out.println("4. Change in temperature.");
+            int choice = scan.nextInt();
 
             switch (choice) {
                 case 1:

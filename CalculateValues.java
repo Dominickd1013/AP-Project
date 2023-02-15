@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class CalcValuesAndList {
+public class CalculateValues {
 
     public static void calculateHeat() {
 

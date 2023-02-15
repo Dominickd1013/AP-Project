@@ -2,25 +2,25 @@ public class Input {
 
     public static void askforheat() {
 
-        CalcValuesAndList.calculateHeat();
+        CalculateValues.calculateHeat();
 
     }
 
     public static void askformass() {
 
-        CalcValuesAndList.calculateMass();
+        CalculateValues.calculateMass();
 
     }
 
     public static void askforspecificheat(){
 
-        CalcValuesAndList.calculateSpecificHeat();
+        CalculateValues.calculateSpecificHeat();
 
     }
 
     public static void askfortemperature(){
 
-        CalcValuesAndList.calculateTemperatureChange();
+        CalculateValues.calculateTemperatureChange();
 
     }
 

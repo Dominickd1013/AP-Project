@@ -2,13 +2,8 @@ import java.util.Scanner;
 
 public class WrittenList {
 
-    static int lastValue = 0;
-    static String[] valueList = new String[1000];
     static Scanner input = new Scanner(System.in);
-    static String keptValue = input.nextLine();
-
     public static void List() {
-
         System.out.println("What would you like to do?");
         System.out.println("1. Write a value down.");
         System.out.println("2. Display my values.");
@@ -61,12 +56,16 @@ public class WrittenList {
 
     public static void addvaluenote() {
         System.out.println("Please type in the value you want to write down.");
+        int lastValue = 0;
+        String[] valueList = new String[1000];
+        String keptValue = input.nextLine();
         valueList[lastValue] = keptValue;
         lastValue++;
     }
 
     public static void displayvaluenote() {
-
+        int lastValue = 0;
+        String[] valueList = new String[1000];
         for (int currentvalue = 0; currentvalue < lastValue; currentvalue++) {
             System.out.println((currentvalue) + "." + (valueList[currentvalue]));
         }
