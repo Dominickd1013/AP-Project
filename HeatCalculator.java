@@ -24,15 +24,19 @@ public class HeatCalculator {
             switch (choice) {
                 case 1:
                     Input.askforheat();
+                    WrittenList.otherList();
                     break;
                 case 2:
                     Input.askformass();
+                    WrittenList.otherList();
                     break;
                 case 3:
                     Input.askforspecificheat();
+                    WrittenList.otherList();
                     break;
                 case 4:
                     Input.askfortemperature();
+                    WrittenList.otherList();
                     break;
                 default:
                     System.out.println("Please make a valid decision and try again.");

@@ -3,9 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="dd4d7fe4-527e-447d-b0be-56224c1fc125" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CalcValuesAndList.java" beforeDir="false" afterPath="$PROJECT_DIR$/CalculateValues.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/HeatCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/HeatCalculator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Input.java" beforeDir="false" afterPath="$PROJECT_DIR$/Input.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WrittenList.java" beforeDir="false" afterPath="$PROJECT_DIR$/WrittenList.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -41,6 +39,7 @@
       <updated>1676400789114</updated>
       <workItem from="1676400790377" duration="77000" />
       <workItem from="1676475052175" duration="1566000" />
+      <workItem from="1676650006494" duration="1542000" />
     </task>
     <servers />
   </component>

@@ -45,29 +45,31 @@ public class WrittenList {
                 break;
             case 2:
                 WrittenList.displayvaluenote();
+                WrittenList.otherList();
                 break;
             case 3:
                 System.out.println("You are now back at the calculator");
                 HeatCalculator.CalculatorInterface();
                 break;
             case 4:
+
+            default:
+                System.out.println("Please pick a valid option.");
         }
     }
 
+    static String[] valueList = new String[1000];
+    static int lastValue = 0;
     public static void addvaluenote() {
         System.out.println("Please type in the value you want to write down.");
-        int lastValue = 0;
-        String[] valueList = new String[1000];
-        String keptValue = input.nextLine();
-        valueList[lastValue] = keptValue;
+        String newValue = input.nextLine();
+        valueList[lastValue] = newValue;
         lastValue++;
     }
 
     public static void displayvaluenote() {
-        int lastValue = 0;
-        String[] valueList = new String[1000];
         for (int currentvalue = 0; currentvalue < lastValue; currentvalue++) {
-            System.out.println((currentvalue) + "." + (valueList[currentvalue]));
+            System.out.println((valueList[currentvalue] + "\n"));
         }
     }
 
