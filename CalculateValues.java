@@ -16,7 +16,7 @@ public class CalculateValues {
 
         double q = m * c * t;
 
-        System.out.println("Your total heat is: " + q);
+        System.out.println("Your total heat is: " + q + "\n");
 
     }
 
@@ -35,7 +35,7 @@ public class CalculateValues {
         double ct = c * t;
         double m = q / ct;
 
-        System.out.println("Your total mass is: " + m);
+        System.out.println("Your total mass is: " + m + "\n");
 
     }
 
@@ -54,7 +54,7 @@ public class CalculateValues {
         double mt = m * t;
         double c = q / mt;
 
-        System.out.println("Your specific heat is: " + c);
+        System.out.println("Your specific heat is: " + c + "\n");
 
     }
 
@@ -70,7 +70,7 @@ public class CalculateValues {
 
         double changeintemp = t2 - t1;
 
-        System.out.println("Your total temperature change is: " + changeintemp);
+        System.out.println("Your total temperature change is: " + changeintemp + "\n");
 
     }
 

@@ -23,18 +23,22 @@ public class HeatCalculator {
 
             switch (choice) {
                 case 1:
+                    System.out.println("All resultant units are based off of what you input." + "\n");
                     Input.askforheat();
                     WrittenList.otherList();
                     break;
                 case 2:
+                    System.out.println("All resultant units are based off of what you input." + "\n");
                     Input.askformass();
                     WrittenList.otherList();
                     break;
                 case 3:
+                    System.out.println("All resultant units are based off of what you input." + "\n");
                     Input.askforspecificheat();
                     WrittenList.otherList();
                     break;
                 case 4:
+                    System.out.println("All resultant units are based off of what you input." + "\n");
                     Input.askfortemperature();
                     WrittenList.otherList();
                     break;
