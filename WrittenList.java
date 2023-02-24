@@ -3,6 +3,7 @@ import java.util.Scanner;
 public class WrittenList {
 
     static Scanner input = new Scanner(System.in);
+
     public static void List() {
         System.out.println("What would you like to do?");
         System.out.println("1. Write a value down.");
@@ -60,6 +61,7 @@ public class WrittenList {
 
     static String[] valueList = new String[1000];
     static int lastValue = 0;
+
     public static void addvaluenote() {
         System.out.println("Please type in the value you want to write down.");
         String newValue = input.nextLine();
@@ -67,8 +69,9 @@ public class WrittenList {
         lastValue++;
     }
 
-    public static void displayvaluenote() {
-        for (int currentvalue = 0; currentvalue < lastValue; currentvalue++) {
+    public static void displayvaluenote(int currentvalue) {
+        for (currentvalue = 0; currentvalue < lastValue; currentvalue++) {
+            System.out.println("Your calculated values are:\n");
             System.out.println((valueList[currentvalue] + "\n"));
         }
     }
