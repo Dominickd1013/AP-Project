@@ -2,6 +2,15 @@ import java.util.Scanner;
 
 public class HeatCalculator {
 
+    private static double m;
+    private static double c;
+    private static double t;
+    private static double q;
+    private static double ct;
+    private static double mt;
+    private static double t1;
+    private static double t2;
+
     public static void CalculatorInterface() {
 
 
@@ -24,22 +33,22 @@ public class HeatCalculator {
             switch (choice) {
                 case 1:
                     System.out.println("All resultant units are based off of what you input." + "\n");
-                    Input.askforheat();
+                    CalculateValues.calculateHeat(m, c, t, q);
                     WrittenList.otherList();
                     break;
                 case 2:
                     System.out.println("All resultant units are based off of what you input." + "\n");
-                    Input.askformass();
+                    CalculateValues.calculateMass(m, c, t, q, ct);
                     WrittenList.otherList();
                     break;
                 case 3:
                     System.out.println("All resultant units are based off of what you input." + "\n");
-                    Input.askforspecificheat();
+                    CalculateValues.calculateSpecificHeat(m, c, t, q, mt);
                     WrittenList.otherList();
                     break;
                 case 4:
                     System.out.println("All resultant units are based off of what you input." + "\n");
-                    Input.askfortemperature();
+                    CalculateValues.calculateTemperatureChange(m, c, t, q, t1, t2);
                     WrittenList.otherList();
                     break;
                 default:

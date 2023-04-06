@@ -3,6 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="dd4d7fe4-527e-447d-b0be-56224c1fc125" name="Changes" comment="Updated as of 2/17/23.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CalculateValues.java" beforeDir="false" afterPath="$PROJECT_DIR$/CalculateValues.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HeatCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/HeatCalculator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Input.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/WrittenList.java" beforeDir="false" afterPath="$PROJECT_DIR$/WrittenList.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -42,6 +45,11 @@
       <workItem from="1677003672525" duration="1965000" />
       <workItem from="1677087205149" duration="602000" />
       <workItem from="1677254993910" duration="1928000" />
+      <workItem from="1678209226735" duration="799000" />
+      <workItem from="1678387542429" duration="8000" />
+      <workItem from="1678470137454" duration="6000" />
+      <workItem from="1680626034385" duration="1998000" />
+      <workItem from="1680791061114" duration="1540000" />
     </task>
     <task id="LOCAL-00001" summary="Updated as of 2/17/23.">
       <created>1676651586215</created>

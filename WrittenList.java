@@ -4,6 +4,13 @@ public class WrittenList {
 
     static Scanner input = new Scanner(System.in);
 
+    public static void displayvaluenote(int currentvalue) {
+        for (currentvalue = 0; currentvalue < lastValue; currentvalue++) {
+            System.out.println("Your calculated values are:\n");
+            System.out.println((valueList[currentvalue] + "\n"));
+        }
+    }
+
     public static void List() {
         System.out.println("What would you like to do?");
         System.out.println("1. Write a value down.");
@@ -20,7 +27,7 @@ public class WrittenList {
         }
 
         if (choice == 2) {
-            WrittenList.displayvaluenote();
+            WrittenList.displayvaluenote(1);
             WrittenList.otherList();
         }
     }
@@ -45,7 +52,7 @@ public class WrittenList {
                 WrittenList.otherList();
                 break;
             case 2:
-                WrittenList.displayvaluenote();
+                WrittenList.displayvaluenote(1);
                 WrittenList.otherList();
                 break;
             case 3:
@@ -67,13 +74,6 @@ public class WrittenList {
         String newValue = input.nextLine();
         valueList[lastValue] = newValue;
         lastValue++;
-    }
-
-    public static void displayvaluenote(int currentvalue) {
-        for (currentvalue = 0; currentvalue < lastValue; currentvalue++) {
-            System.out.println("Your calculated values are:\n");
-            System.out.println((valueList[currentvalue] + "\n"));
-        }
     }
 
 }
